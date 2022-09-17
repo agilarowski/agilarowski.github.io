@@ -1,29 +1,27 @@
-# Section 1 | Tutorial 1 | Getting Started
+# Section 1 | Tutorial 2 | Basic HTML
 
 The goals for this tutorial are:
 
-- to set up installations for your [local development environment](./1_INSTALL.md)
-- to get comfortable with the [Github workflow](./2_GIT_SETUP.md)
-- to learn how to [serve](./3_BASIC_SERVER.md) your pages so that you can see/interact with them while you are coding
+- to learn what [HTML markup elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) are available to us in basic web development, including the items critical to data visualization, such as [tables](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) and [svgs](https://developer.mozilla.org/en-US/docs/Web/SVG). 
+- to get a basic understanding of [css](https://developer.mozilla.org/en-US/docs/Web/CSS) and [selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors), and how they can be used to style a page.
+- to ground ourselves in the [Document Object Model](https://developer.mozilla.org/en-US/docs/Glossary/DOM).
 
 ## Assignment:
 
-- [ ] Replicate this environment on your own computer. You should leverage the files present in the root of this directory in your repository (`1_1_getting_started/` [index.html](index.html), [style.css](style.css), [main.js](main.js))
-   1. First, confirm you have all the [installations](./1_INSTALL.md) on your machine. If you have no errors, proceed to the next step.
-   2. While logged in to your github username, follow the [github workflow](./2_GIT_SETUP.md) to fork this repository into your own account.
-   3. Ensure that you can [serve](./3_BASIC_SERVER.md) locally.
-- [ ] Using your local server, update the language in the `index.html`. Pick anything at all -- but it should be different than 'Welcome to Interactive Data Visualization Tutorials!' to show that your code changes are connected to your site. You should see this in the browser of your local serve.
+- [ ] Make your own [HTML table](https://developer.mozilla.org/en-US/docs/Learn/HTML/Tables/Basics) with different data, either real or made up. For full credit, this table **must**:
+  - [ ] have at least one more column than the sample code.
+  - [ ] include a class name that is relevant to the table AND changes something about the style of a cell, cells, row, or rows.
+- [ ] Add rectangles to your svg. For reference you should use the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/rect) for svg rectangles.  
 - [ ] Push these changes up to your forked repository. You should see your commit and any code changes in the github repo. Confirm that you see your changes in the deployed site. Follow the details outlined in the [deploy and submit below](#deploy--submit) to recieve credit.
 
 **BONUS:**
 
-- [ ] Play with the page styles using CSS
-- [ ] Add additional HTML elements to the main page
+- [ ] Add a path to your SVG. Use the [MDN documentation on paths](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/path) to help you build a function to illustrate those paths. 
+- [ ] Add an image to your page using [image tags](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img) (`<img />`). 
+- [ ] Add a [button](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button) or [input](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input) to your page. 
 
 ## Deploy + Submit
 
 Once you've completed the assignment, use the Github workflow to deploy your work to **your fork** of the course repository. **NOTE**: It can take up to 10 minutes for pushed up code to appear in a deployed site. Post the following as a comment to the appropriate post on the [commons site](https://data73200fall2022.commons.gc.cuny.edu/):
 1. a link to your committed code repository (your link will look something like: `https://github.com/[YOUR_USERNAME]/Interactive-Data-Vis-Fall2022/[TUTORIAL_PATH]/`)
 2. a link to your deployed example (your link will look something like: `https://[YOUR_USERNAME].github.io/Interactive-Data-Vis-Fall2022/[TUTORIAL_PATH]/`)
-
-
